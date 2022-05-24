@@ -87,6 +87,7 @@ button {
     justify-content: center;
     font-size: 18px;
     font-weight: 200px;
+    margin-bottom: 70px;
 }
 
 .sub-info-container {
@@ -107,3 +108,36 @@ button {
     border-color: #3882f6;
     border-radius: 10%;
 }
+
+
+.quote-block {
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    background-color: #e5e7eb;
+    margin: auto;
+}
+
+.quote-text {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+   font-family: 'Roboto';
+   font-weight: lighter;
+   font-style: italic;
+   font-size: 39px;
+   color: #1f2937;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    margin-top: 10px;
+
+}
+
